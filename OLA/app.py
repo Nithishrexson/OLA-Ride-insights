@@ -7,7 +7,7 @@ import plotly.express as px
 # --------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("OLA_DataSet.csv")  # Changed to CSV
+    return pd.read_csv("OLA/OLA_DataSet.csv")  # Changed to CSV
 
 df = load_data()
 
@@ -251,3 +251,4 @@ elif page == "About Creator":
         These projects highlight expertise in **data preprocessing, analytics, dashboard creation, and problem-solving** across multiple domains.  
         """
     )
+
